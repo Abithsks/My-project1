@@ -1,0 +1,105 @@
+.MyCards {
+    padding: 40px;
+    background-color: black;
+}
+
+.Cards-container {
+    width: 20%;
+    color: rgb(211, 197, 197);
+    margin: 20px;
+    border: 1.5px solid rgba(129, 123, 123, 0.8);
+}
+
+.title{
+    text-align: center;
+    padding: 3%;
+    font-size: 5mm;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.watch{
+    display: flex;
+    color: rgba(59, 102, 221, 0.76);
+    background-color:black;
+    border: none;
+    font-size: 4mm;
+    font-family:monospace;
+    margin-left: 3px ;
+    margin-bottom: 2%;
+    
+}
+button:hover{
+    color: blue;
+}
+.card-color{
+    display: flex;
+    color: rgba(59, 102, 221, 0.76);
+    background-color:black;
+    border: none;
+    font-size: 4mm;
+    font-family:monospace;
+   margin-left:30%;
+   margin-bottom: 2%;
+}
+
+.color{
+    display: flex;
+}
+
+.image{
+   width:100%
+}
+
+.display{
+    display: flex;
+}
+
+.container{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    row-gap: 10%;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.heading{
+    color:rgb(207, 197, 197);
+}
+
+.search {
+    margin-top: 2%;
+    padding: 0.6%;
+    margin-left: 2%;
+    background-color: rgb(131, 130, 130);
+    border: none;
+
+    color: rgb(77, 20, 20);
+  
+
+
+}
+
+  input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+input::placeholder{
+    color: rgb(68, 38, 15);
+}
+
+  
+ 
+  
+ 
+
+  
+  
+  
+
+
+
+ 
+
+
+
+

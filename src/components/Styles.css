@@ -1,0 +1,112 @@
+.MyCards {
+  padding: 40px;
+  background-color: black;
+}
+
+.Cards-container {
+  width: 20%;
+  color: #d3c5c5;
+  margin: 20px;
+  border: 1.5px solid rgba(129, 123, 123, 0.8);
+}
+
+.title {
+  text-align: center;
+  padding: 3%;
+  font-size: 5mm;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.watch {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: rgba(59, 102, 221, 0.76);
+  background-color: black;
+  border: none;
+  font-size: 4mm;
+  font-family: monospace;
+  margin-left: 3px;
+  margin-bottom: 2%;
+}
+
+button:hover {
+  color: blue;
+}
+
+.card-color {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: rgba(59, 102, 221, 0.76);
+  background-color: black;
+  border: none;
+  font-size: 4mm;
+  font-family: monospace;
+  margin-left: 30%;
+  margin-bottom: 2%;
+}
+
+.color {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.image {
+  width: 100%;
+}
+
+.display {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  row-gap: 10%;
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+.heading {
+  color: #cfc5c5;
+}
+
+.search {
+  margin-top: 2%;
+  padding: 0.6%;
+  margin-left: 2%;
+  background-color: #838282;
+  border: none;
+  color: #4d1414;
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+}
+
+input::-webkit-input-placeholder {
+  color: #44260f;
+}
+
+input:-ms-input-placeholder {
+  color: #44260f;
+}
+
+input::-ms-input-placeholder {
+  color: #44260f;
+}
+
+input::placeholder {
+  color: #44260f;
+}
+/*# sourceMappingURL=Styles.css.map */
