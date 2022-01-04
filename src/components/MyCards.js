@@ -123,7 +123,7 @@ function MyCards() {
     return (
         <div className='MyCards'>
             <h2 className="heading">My Series</h2>
-
+            <h2 className="heading">My Series list</h2>
             <input onChange={handleChange} className='search' type="search" name="search" placeholder="Search" />
             <div className='container'>
                 {filterData.map((e) => {
